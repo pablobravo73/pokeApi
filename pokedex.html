@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <div class="pokedex">
+        <div class="pokePhoto">
+        <img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" class="image">
+    </div>
+        <div class="pokeInfo">
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+            <button onclick="fetchPokemon()">Buscar pokemon</button>
+            <div class="pokeScreen" id="abilities"></div>
+
+        </div>
+    </div>
+
+
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
